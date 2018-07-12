@@ -25,7 +25,7 @@ def imgdown(url,name,count):
 		for ele in img:
 			val = ele.get('class')
 			if val!=None and len(val)>1 and val[1]=='h-flex-auto': #전체가 h-image-img h-flex-auto responsive이며 두번째 파라미터로 구분
-				base_url = ele.get("src")
+				base_url = ele.get("src")	#이미지 소스
 				imgurl.append(base_url)
 
 
@@ -42,7 +42,7 @@ def imgdown(url,name,count):
 			os.makedirs(imgpath_model)
 		imgname = str(count) + ".png"
 
-		urllib.request.urlretrieve(imgurl[-1],imgpath_org+imgname)
+		urllib.request.urlretrieve(imgurl[-1],imgpath_org+imgname) #이미지 로컬에 다운로드 
 		urllib.request.urlretrieve(imgurl[0],imgpath_model+imgname)
 
 	except:
