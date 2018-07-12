@@ -1,0 +1,7 @@
+basictshirt,https://www.zalando.co.uk/mens-clothing-basic-t-shirts/?p=,28
+tanktop,https://www.zalando.co.uk/mens-clothing-vests/?p=,6
+longsleeve,https://www.zalando.co.uk/mens-clothing-long-sleeve-tops/?p=,14
+polo,https://www.zalando.co.uk/mens-clothing-polo-shirts/?p=,29
+printtshirt,https://www.zalando.co.uk/mens-clothing-print-t-shirts/?p=,72
+casualshirt,https://www.zalando.co.uk/mens-clothing-casual-shirts/?p=,42
+formalshirt,https://www.zalando.co.uk/mens-clothing-business-shirts/?p=,11
